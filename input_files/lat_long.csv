@@ -1,0 +1,523 @@
+Place,Lat,Long
+
+"JFK Airport, New York",40.6446245,-73.7797035
+
+"Murray Hill, New York",40.7478792,-73.9756567
+
+"Lincoln Square East, New York",40.7741769,-73.98491179999999
+
+"Upper West Side North, New York",40.7870106,-73.9753676
+
+"World Trade Center, New York",40.7118011,-74.0131196
+
+"Little Italy/NoLiTa, New York",40.7191413,-73.9973273
+
+"Clinton East, New York",40.7637581,-73.9918181
+
+"Union Sq, New York",40.7358633,-73.9910835
+
+"LaGuardia Airport, New York",40.7766422,-73.8742467
+
+"Ridgewood, New York",40.7043986,-73.9018292
+
+"Hillcrest/Pomonok, New York",40.732341,-73.81077239999999
+
+"Lenox Hill West, New York",40.7390377,-73.9980848
+
+"Gramercy, New York",40.7367783,-73.9844722
+
+"East Village, New York",40.7264773,-73.98153370000001
+
+"Times Sq/Theatre District, New York",40.7579747,-73.9855426
+
+"Meatpacking/West Village West, New York",40.7409865,-74.0076108
+
+"Yorkville West, New York",40.7762231,-73.94920789999999
+
+"Midtown Center, New York",40.7314658,-73.9970956
+
+"Financial District South, New York",40.7077143,-74.00827869999999
+
+"Fort Greene, New York",40.6920638,-73.97418739999999
+
+"Midtown North, New York",40.7649516,-73.9851039
+
+"Midtown East, New York",40.7571432,-73.9718815
+
+"Lincoln Square West, New York",40.7741769,-73.98491179999999
+
+"Brooklyn Heights, New York",40.6959294,-73.9955523
+
+"East Williamsburg, New York",40.7141953,-73.9316461
+
+"UN/Turtle Bay South, New York",40.7493281,-73.96792409999999
+
+"SoHo, New York",40.7245908,-74.00191740000001
+
+"TriBeCa/Civic Center, New York",40.7157238,-74.00703159999999
+
+"West Village, New York",40.73468,-74.0047554
+
+"Flatiron, New York",40.740083,-73.9903489
+
+"Park Slope, New York",40.6710672,-73.98142279999999
+
+"Upper East Side South, New York",40.7735649,-73.9565551
+
+"Morningside Heights, New York",40.8105443,-73.9620581
+
+"Sutton Place/Turtle Bay North, New York",40.7580104,-73.9602123
+
+"Garment District, New York",40.7547072,-73.9916342
+
+"Stuy Town/Peter Cooper Village, New York",40.7316903,-73.9778494
+
+"Lenox Hill East, New York",40.7662315,-73.9602312
+
+"East Chelsea, New York",40.7465004,-74.00137370000002
+
+"Midtown South, New York",40.7521795,-73.9875438
+
+"Jackson Heights, New York",40.7556818,-73.8830701
+
+"Penn Station/Madison Sq West, New York",40.7888944,-74.0163219
+
+"Lower East Side, New York",40.715033,-73.9842724
+
+"Upper East Side North, New York",40.7735649,-73.9565551
+
+"Woodside, New York",40.7532704,-73.9068858
+
+"Kips Bay, New York",40.74232920000001,-73.9800645
+
+"Canarsie, New York",40.640248,-73.9060662
+
+"Baisley Park, New York",40.6848044,-73.78222509999999
+
+"West Chelsea/Hudson Yards, New York",40.754247,-74.0022078
+
+"Manhattanville, New York",40.8169443,-73.9558333
+
+"Williamsburg (South Side), New York",40.70824229999999,-73.9571487
+
+"Washington Heights South, New York",40.8417082,-73.9393554
+
+"Hudson Sq, New York",40.7266108,-74.0074328
+
+"East Harlem South, New York",40.7957399,-73.93892129999999
+
+"Jamaica, New York",40.7037439,-73.7991953
+
+"Long Island City/Hunters Point, New York",40.7485587,-73.94964639999999
+
+"Astoria, New York",40.7643574,-73.92346189999999
+
+"Greenwich Village North, New York",40.7335719,-74.0027418
+
+"Bedford, New York",41.204262,-73.6437397
+
+"Clinton Hill, New York",40.6896834,-73.9661144
+
+"Greenpoint, New York",40.7304701,-73.95150319999999
+
+"Outside of NYC, New York",40.7584564,-73.9900329
+
+"Central Harlem North, New York",40.8089419,-73.9482305
+
+"Chinatown, New York",40.7157509,-73.9970307
+
+"East Harlem North, New York",40.7957399,-73.93892129999999
+
+"Sunnyside, New York",40.7432759,-73.9196324
+
+"Inwood, New York",40.8677145,-73.9212019
+
+"Douglaston, New York",40.76401509999999,-73.7433727
+
+"Upper West Side South, New York",40.7870106,-73.9753676
+
+"Bushwick South, New York",40.6942821,-73.925924
+
+"Bloomingdale, New York",44.4078279,-74.0870965
+
+"Windsor Terrace, New York",40.6539346,-73.9756567
+
+"Hamilton Heights, New York",40.8252793,-73.94761390000001
+
+"Yorkville East, New York",40.7762231,-73.94920789999999
+
+"Crown Heights North, New York",40.6694022,-73.9422324
+
+"Flatlands, New York",40.6232714,-73.9321664
+
+"Manhattan Valley, New York",40.7966989,-73.9684247
+
+"Central Harlem, New York",40.8089419,-73.9482305
+
+"South Ozone Park, New York",40.6764003,-73.8124984
+
+"Mott Haven/Port Morris, New York",40.8022025,-73.9166051
+
+"Old Astoria, New York",40.7643574,-73.92346189999999
+
+"Bushwick North, New York",40.6957755,-73.9170604
+
+"Greenwich Village South, New York",40.7335719,-74.0027418
+
+"Far Rockaway, New York",40.5998931,-73.74484369999999
+
+"Central Park, New York",40.7825547,-73.9655834
+
+"Sunset Park East, New York",40.6526345,-74.0091872
+
+"East Elmhurst, New York",40.7660427,-73.8758704
+
+"Ocean Hill, New York",40.6782737,-73.9108212
+
+"Alphabet City, New York",40.7258428,-73.9774916
+
+"Williamsburg (North Side), New York",40.7162503,-73.9585348
+
+"Steinway, New York",40.7745459,-73.9037477
+
+"Seaport, New York",40.70722629999999,-74.0027431
+
+"Hollis, New York",40.7112203,-73.762495
+
+"Crown Heights South, New York",40.6694022,-73.9422324
+
+"Cobble Hill, New York",40.686536,-73.9962255
+
+"West Concourse, New York",40.821916,-73.92423640000001
+
+"Soundview/Castle Hill, New York",40.8160477,-73.8605248
+
+"Boerum Hill, New York",40.6848689,-73.9844722
+
+"Prospect-Lefferts Gardens, New York",40.6592355,-73.9533895
+
+"Washington Heights North, New York",40.852476,-73.9342996
+
+"Flushing Meadows-Corona Park, New York",40.7400625,-73.8406875
+
+"Longwood, New York",40.8248438,-73.8915875
+
+"Broad Channel, New York",40.6158335,-73.8213213
+
+"Two Bridges/Seward Park, New York",40.7107469,-73.99696
+
+"Elmhurst, New York",40.73940350000001,-73.8779431
+
+"DUMBO/Vinegar Hill, New York",40.7033164,-73.9881451
+
+"Riverdale/North Riverdale/Fieldston, New York",40.9090464,-73.90364869999999
+
+"Forest Hills, New York",40.718106,-73.8448469
+
+"Pelham Bay, New York",40.8438486,-73.8304179
+
+"South Jamaica, New York",40.6804703,-73.7920918
+
+"Battery Park City, New York",40.7115786,-74.0158441
+
+"Maspeth, New York",40.7294018,-73.9065883
+
+"Kew Gardens, New York",40.705695,-73.8272029
+
+"Prospect Heights, New York",40.6774196,-73.9668408
+
+"Bedford Park, New York",40.8700999,-73.8856912
+
+"Elmhurst/Maspeth, New York",40.73940350000001,-73.8779431
+
+"North Corona, New York",40.7543725,-73.8669188
+
+"Melrose South, New York",40.824545,-73.9104143
+
+"Financial District North, New York",40.7077143,-74.00827869999999
+
+"Stuyvesant Heights, New York",40.6824166,-73.9319933
+
+"Rego Park, New York",40.72557219999999,-73.8624893
+
+"Sunset Park West, New York",40.6526345,-74.0091872
+
+"Bay Ridge, New York",40.6263732,-74.0298767
+
+"Murray Hill-Queens, New York",40.7634996,-73.8073261
+
+"Briarwood/Jamaica Hills, New York",40.7135548,-73.796488
+
+"Long Island City/Queens Plaza, New York",40.7509941,-73.9402697
+
+"Springfield Gardens South, New York",40.6640496,-73.7685614
+
+"Saint Albans, New York",40.6895283,-73.76436880000001
+
+"Downtown Brooklyn/MetroTech, New York",40.6930744,-73.9856649
+
+"Queens Village, New York",40.7156628,-73.7419017
+
+"Kensington, New York",40.63852019999999,-73.97318729999999
+
+"Soundview/Bruckner, New York",40.8247728,-73.8695889
+
+"East New York/Pennsylvania Avenue, New York",40.6566595,-73.8890829
+
+"Carroll Gardens, New York",40.6795331,-73.9991637
+
+"Van Cortlandt Village, New York",40.8837203,-73.89313899999999
+
+"Howard Beach, New York",40.6571222,-73.8429989
+
+"Ozone Park, New York",40.6806669,-73.844659
+
+"Brownsville, New York",40.665214,-73.9125304
+
+"Morrisania/Melrose, New York",40.824545,-73.9104143
+
+"Queensbridge/Ravenswood, New York",40.7556711,-73.9456723
+
+"East Flatbush/Remsen Village, New York",40.65281299999999,-73.9199721
+
+"Richmond Hill, New York",40.6999853,-73.8310309
+
+"Queensboro Hill, New York",40.7445911,-73.8258135
+
+"Erasmus, New York",40.7127753,-74.0059728
+
+"East Flatbush/Farragut, New York",40.6374776,-73.9465792
+
+"Bayside, New York",40.7602604,-73.7692026
+
+"Woodhaven, New York",40.6901366,-73.8566087
+
+"Flatbush/Ditmas Park, New York",40.6414876,-73.9593998
+
+"Crotona Park East, New York",40.8365344,-73.8933509
+
+"Battery Park, New York",40.7115786,-74.0158441
+
+"Prospect Park, New York",40.6602037,-73.9689558
+
+"East New York, New York",40.6590529,-73.8759245
+
+"Glendale, New York",40.7016662,-73.8842219
+
+"Columbia Street, New York",40.7171884,-73.9801775
+
+"Roosevelt Island, New York",40.76050310000001,-73.9509934
+
+"Springfield Gardens North, New York",40.6640496,-73.7685614
+
+"Bay Terrace/Fort Totten, New York",40.79379,-73.7797304
+
+"Laurelton, New York",40.67764,-73.7447853
+
+"Homecrest, New York",40.6004787,-73.9565551
+
+"Cypress Hills, New York",40.6836873,-73.87963309999999
+
+"Gowanus, New York",40.6751161,-73.9879753
+
+"Rosedale, New York",40.6575584,-73.7330753
+
+"Midwood, New York",40.6204388,-73.95997779999999
+
+"Parkchester, New York",40.8382522,-73.8566087
+
+"Marine Park/Floyd Bennett Field, New York",40.5910174,-73.89060909999999
+
+"Bloomfield/Emerson Hill, New York",40.6074525,-74.0963115
+
+"Brighton Beach, New York",40.5780706,-73.9596565
+
+"Arrochar/Fort Wadsworth, New York",40.6012117,-74.0579185
+
+"Highbridge, New York",40.836916,-73.9271294
+
+"Mount Hope, New York",41.4513121,-74.5346103
+
+"Fordham South, New York",40.8614567,-73.8852771
+
+"West Farms/Bronx River, New York",40.8430609,-73.8816001
+
+"Saint George/New Brighton, New York",40.6404369,-74.090226
+
+"University Heights/Morris Heights, New York",40.8505298,-73.91554289999999
+
+"Newark Airport, New York",40.6884837,-74.17686359999999
+
+"South Williamsburg, New York",40.7043921,-73.9565551
+
+"Sheepshead Bay, New York",40.5953955,-73.94575379999999
+
+"East Concourse/Concourse Village, New York",40.8316761,-73.9227554
+
+"Hunts Point, New York",40.8094385,-73.8803315
+
+"Bronx Park, New York",40.8614078,-73.8705844
+
+"Co-Op City, New York",40.8738889,-73.82944440000001
+
+"Pelham Bay Park, New York",40.8667516,-73.81011029999999
+
+"Coney Island, New York",40.5755438,-73.9707016
+
+"Brooklyn Navy Yard, New York",40.6991765,-73.97158379999999
+
+"Hammels/Arverne, New York",40.5899226,-73.8065236
+
+"Williamsbridge/Olinville, New York",40.8803912,-73.8668996
+
+"Allerton/Pelham Gardens, New York",40.8652147,-73.8462442
+
+"Jamaica Estates, New York",40.7179512,-73.783822
+
+"Woodlawn/Wakefield, New York",40.8955423,-73.86247650000001
+
+"Fresh Meadows, New York",40.7335179,-73.7801447
+
+"Marble Hill, New York",40.8761173,-73.9102628
+
+"Red Hook, New York",41.9950919,-73.87541139999999
+
+"Corona, New York",40.7449859,-73.8642613
+
+"Mariners Harbor, New York",40.6336287,-74.156292
+
+"Westchester Village/Unionport, New York",40.83034079999999,-73.8506737
+
+"Marine Park/Mill Basin, New York",40.6113817,-73.93318649999999
+
+"Cambria Heights, New York",40.692158,-73.7330753
+
+"Pelham Parkway, New York",40.8553279,-73.8639594
+
+"Belmont, New York",42.2231241,-78.0344506
+
+"Auburndale, New York",40.7577672,-73.78339609999999
+
+"Bath Beach, New York",40.6038852,-74.0062078
+
+"Claremont/Bathgate, New York",40.7127753,-74.0059728
+
+"Middle Village, New York",40.717372,-73.87425
+
+"East Tremont, New York",40.8453781,-73.8909693
+
+"Starrett City, New York",40.6484272,-73.88236119999999
+
+"Borough Park, New York",40.6350319,-73.9921028
+
+"Kew Gardens Hills, New York",40.7246203,-73.8207637
+
+"Dyker Heights, New York",40.6167679,-74.0183
+
+"Bellerose, New York",40.72437070000001,-73.71540139999999
+
+"Madison, New York",42.8989582,-75.5121217
+
+"City Island, New York",40.8468202,-73.7874983
+
+"Spuyten Duyvil/Kingsbridge, New York",40.88116369999999,-73.9154069
+
+"Flushing, New York",40.7647238,-73.8306716
+
+"Norwood, New York",44.7514452,-74.9943641
+
+"Glen Oaks, New York",40.7500305,-73.7163805
+
+"Inwood Hill Park, New York",40.8721829,-73.924776
+
+"Oakland Gardens, New York",40.7408584,-73.758241
+
+"Van Nest/Morris Park, New York",40.850332,-73.8513735
+
+"Van Cortlandt Park, New York",40.8873486,-73.8942063
+
+"East Flushing, New York",40.7540534,-73.8086418
+
+"Randalls Island, New York",40.7932271,-73.92128579999999
+
+"Ocean Parkway South, New York",40.6128775,-73.9683888
+
+"College Point, New York",40.786395,-73.8389657
+
+"Bensonhurst West, New York",40.6139307,-73.9921833
+
+"Schuylerville/Edgewater Park, New York",40.8235967,-73.81029269999999
+
+"Kingsbridge Heights, New York",40.8711235,-73.8976328
+
+"Bensonhurst East, New York",40.6139307,-73.9921833
+
+"Stapleton, New York",40.6264929,-74.07764139999999
+
+"Highbridge Park, New York",40.8537599,-73.9257492
+
+"Eastchester, New York",40.95956049999999,-73.8095574
+
+"Grymes Hill/Clifton, New York",40.6187151,-74.09347509999999
+
+"Forest Park/Highland Park, New York",43.19611,-78.67443999999999
+
+"Rockaway Park, New York",40.57978629999999,-73.8372237
+
+"Manhattan Beach, New York",40.57815799999999,-73.93892129999999
+
+"Saint Michaels Cemetery/Woodside, New York",40.7646761,-73.89850419999999
+
+"Rikers Island, New York",40.79312770000001,-73.88601
+
+"Oakwood, New York",40.563994,-74.1159754
+
+"Bronxdale, New York",40.8506558,-73.86652409999999
+
+"West Brighton, New York",40.6270298,-74.10931409999999
+
+"Gravesend, New York",40.5968007,-73.9749909
+
+"Whitestone, New York",40.7920449,-73.8095574
+
+"South Beach/Dongan Hills, New York",40.5906641,-74.088452
+
+"Charleston/Tottenville, New York",40.5083408,-74.23554039999999
+
+"Arden Heights, New York",40.556413,-74.1735044
+
+"Westerleigh, New York",40.616296,-74.1386767
+
+"New Dorp/Midland Beach, New York",40.5739937,-74.1159755
+
+"Green-Wood Cemetery, New York",40.6525726,-73.9916336
+
+"Eltingville/Annadale/Prince's Bay, New York",40.5232804,-74.20032309999999
+
+"Astoria Park, New York",40.7756414,-73.9259596
+
+"Breezy Point/Fort Tilden/Riis Beach, New York",40.5616379,-73.8953425
+
+"Country Club, New York",40.8391667,-73.8197222
+
+"Crotona Park, New York",40.8365344,-73.8933509
+
+"Great Kills, New York",40.5543273,-74.156292
+
+"Willets Point, New York",40.759744,-73.8455118
+
+"Heartland Village/Todt Hill, New York",40.5908869,-74.1585424
+
+"Port Richmond, New York",40.6339267,-74.13606519999999
+
+"Jamaica Bay, New York",40.6056632,-73.8713099
+
+"Rossville/Woodrow, New York",40.5487933,-74.2107848
+
+"Freshkills Park, New York",40.5642714,-74.186255
+
+"Governor's Island/Ellis Island/Liberty Island, New York",40.68945009999999,-74.016792
+
+"Great Kills Park, New York",40.5492367,-74.1238486
+
+"Clinton West, New York",40.76308732111293, -73.99384084177586
