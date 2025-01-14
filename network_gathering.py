@@ -135,43 +135,41 @@ def degree_distribution_plot(graph_file):
 
 
 if __name__ == "__main__":
-    # file_name = combine_csv()
-    # new_file_name = add_lat_long_to_csv(file_name)
-    # trip_freq_graph= construct_graphs_from_csv(new_file_name)
-    # degree_distribution_plot(trip_freq_graph)
+    file_name = combine_csv()
+    new_file_name = add_lat_long_to_csv(file_name)
+    trip_freq_graph= construct_graphs_from_csv(new_file_name)
+    degree_distribution_plot(trip_freq_graph)
 
-    # # R1 
-    # random_metrics = random_failures("output_files/trip_freq_graph.graphml", 190)
-    # targeted_metrices = targeted_failures("output_files/trip_freq_graph.graphml",190, centrality_measure="pagerank")
-    # plot_failure_results(random_metrics, targeted_metrices)
+    # R1 
+    random_metrics = random_failures("output_files/trip_freq_graph.graphml", 190)
+    targeted_metrices = targeted_failures("output_files/trip_freq_graph.graphml",190, centrality_measure="pagerank")
+    plot_failure_results(random_metrics, targeted_metrices)
 
-    # # R2
-    # morning_df, evening_df, afternoon_df, night_df = get_dataset_with_time_periods("output_files/ny_taxi_10_2024_data_lat_long.csv")
-    # #morning_df, evening_df, night_df = get_dataset_with_time_periods("output_files/ny_taxi_10_2024_data_lat_long.csv")
-    # morning_graph_file = construct_time_period_graphs(morning_df, "morning")
-    # evening_graph_file = construct_time_period_graphs(evening_df, "evening")
-    # afternoon_graph_file = construct_time_period_graphs(afternoon_df, "afternoon")
-    # night_graph_file = construct_time_period_graphs(night_df, "night")  
-    # morning_data_summary = summarize_metrics("output_files/morning_trip_graph.graphml") 
-    # evening_data_summary = summarize_metrics("output_files/evening_trip_graph.graphml")
-    # afternoon_data_summary = summarize_metrics("output_files/afternoon_trip_graph.graphml")
-    # night_data_summary = summarize_metrics("output_files/night_trip_graph.graphml")
-    # # print(morning_data_summary)
-    # write_summary_to_file(morning_data_summary, "output_files/morning_summary_data.txt")
-    # write_summary_to_file(evening_data_summary, "output_files/evening_summary_data.txt")
-    # write_summary_to_file(afternoon_data_summary, "output_files/afternoon_summary_data.txt")
-    # write_summary_to_file(night_data_summary, "output_files/night_summary_data.txt")
+    # R2
+    morning_df, evening_df, afternoon_df, night_df = get_dataset_with_time_periods("output_files/ny_taxi_10_2024_data_lat_long.csv")
+    morning_graph_file = construct_time_period_graphs(morning_df, "morning")
+    evening_graph_file = construct_time_period_graphs(evening_df, "evening")
+    afternoon_graph_file = construct_time_period_graphs(afternoon_df, "afternoon")
+    night_graph_file = construct_time_period_graphs(night_df, "night")  
+    morning_data_summary = summarize_metrics("output_files/morning_trip_graph.graphml") 
+    evening_data_summary = summarize_metrics("output_files/evening_trip_graph.graphml")
+    afternoon_data_summary = summarize_metrics("output_files/afternoon_trip_graph.graphml")
+    night_data_summary = summarize_metrics("output_files/night_trip_graph.graphml")
+    write_summary_to_file(morning_data_summary, "output_files/morning_summary_data.txt")
+    write_summary_to_file(evening_data_summary, "output_files/evening_summary_data.txt")
+    write_summary_to_file(afternoon_data_summary, "output_files/afternoon_summary_data.txt")
+    write_summary_to_file(night_data_summary, "output_files/night_summary_data.txt")
 
-    # morning_map = visualize_top_nodes_from_summary("output_files/morning_trip_graph.graphml", morning_data_summary, "Morning")
-    # evening_map = visualize_top_nodes_from_summary("output_files/evening_trip_graph.graphml", evening_data_summary, "Evening")
-    # afternoon_map = visualize_top_nodes_from_summary("output_files/afternoon_trip_graph.graphml", afternoon_data_summary, "Afternoon")
-    # night_map = visualize_top_nodes_from_summary("output_files/night_trip_graph.graphml", night_data_summary, "Night")
+    morning_map = visualize_top_nodes_from_summary("output_files/morning_trip_graph.graphml", morning_data_summary, "Morning")
+    evening_map = visualize_top_nodes_from_summary("output_files/evening_trip_graph.graphml", evening_data_summary, "Evening")
+    afternoon_map = visualize_top_nodes_from_summary("output_files/afternoon_trip_graph.graphml", afternoon_data_summary, "Afternoon")
+    night_map = visualize_top_nodes_from_summary("output_files/night_trip_graph.graphml", night_data_summary, "Night")
 
-    # # Save the maps
-    # morning_map.save("output_files/morning_top_nodes.html")
-    # afternoon_map.save("output_files/afternoon_top_nodes.html")
-    # evening_map.save("output_files/evening_top_nodes.html")
-    # night_map.save("output_files/night_top_nodes.html")
+    # Save the maps
+    morning_map.save("output_files/morning_top_nodes.html")
+    afternoon_map.save("output_files/afternoon_top_nodes.html")
+    evening_map.save("output_files/evening_top_nodes.html")
+    night_map.save("output_files/night_top_nodes.html")
 
     run_community_detection()
 

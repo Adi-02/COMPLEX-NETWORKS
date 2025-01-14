@@ -6,3 +6,4 @@ output_files/*
 __pycache__/
 community_detection/*
 !community_detection/.gitkeep
+input_files/yellow_tripdata_2024-10.csv

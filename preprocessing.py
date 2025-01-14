@@ -1,6 +1,16 @@
 import pandas as pd 
 
+def convert_parquet_to_csv():
+    parquet_file = "input_files/yellow_tripdata_2024-10.parquet"
+    csv_file_name = "input_files/yellow_tripdata_2024-10.csv"
+
+    df = pd.read_parquet(parquet_file)
+    df.to_csv(csv_file_name, index=False)
+
+    print(f"Converted {parquet_file} to {csv_file_name}")
+
 def combine_csv():    
+    convert_parquet_to_csv()
     csv_files = ["input_files/yellow_tripdata_2024-10.csv"]
 
     # Specify the columns you want to load
