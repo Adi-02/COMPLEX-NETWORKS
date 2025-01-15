@@ -1,8 +1,6 @@
 import networkx as nx
 import folium
 
-
-# Average clustering coefficient
 def get_average_clustering(graph):
     return nx.average_clustering(graph, weight='weight')
 
@@ -17,7 +15,6 @@ def compute_betweenness_centrality(graph):
 def compute_degree_centrality(graph):
     return nx.degree_centrality(graph)
 
-# Get top 5 most central nodes
 def get_top_central_nodes(centrality, top_n=5):
     return sorted(centrality.items(), key=lambda x: x[1], reverse=True)[:top_n]
 
@@ -49,7 +46,7 @@ def visualize_top_nodes_from_summary(graph_name, summary, time_period, map_cente
         name = node
         folium.CircleMarker(
             location=(lat, long),
-            radius=20,  # Scale by centrality
+            radius=20, 
             popup=f"Node: {node}, Centrality: {centrality:.4f}, Period: {time_period}",
             color='blue' if time_period == "Morning" else 'red' if time_period == "Evening" else 'green' if time_period == "Afternoon" else 'purple',
             fill=True
@@ -58,13 +55,6 @@ def visualize_top_nodes_from_summary(graph_name, summary, time_period, map_cente
     return m
 
 def write_summary_to_file(summary_data, file_name):
-    """
-    Write the summary data to a file in a formatted way.
-
-    Parameters:
-        summary_data (dict): A dictionary containing summary data.
-        file_name (str): The name of the file to write the summary to.
-    """
     try:
         with open(file_name, 'w') as file:
             file.write("Summary Report\n")
@@ -73,7 +63,6 @@ def write_summary_to_file(summary_data, file_name):
             for key, value in summary_data.items():
                 file.write(f"{key}:\n")
                 
-                # If the value is a list, print each item on a new line
                 if isinstance(value, list):
                     for item in value:
                         file.write(f"  - {item}\n")
