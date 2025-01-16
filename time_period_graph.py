@@ -1,5 +1,6 @@
 import networkx as nx
 import folium
+import re
 
 def get_average_clustering(graph):
     return nx.average_clustering(graph, weight='weight')
@@ -32,7 +33,10 @@ def summarize_metrics(graph_name):
         "Average Clustering Coefficient": avg_clustering,
         "Top Edges (Trips)": top_edges
     }
-    return summary
+
+    time_period = re.split(r'[_,/]+',graph_name)[2]
+    summary_text_file = f"output_files/{time_period}_summary_data.txt"
+    return summary, summary_text_file
 
 
 def visualize_top_nodes_from_summary(graph_name, summary, time_period, map_center=(40.7128, -74.0060)):
@@ -52,7 +56,8 @@ def visualize_top_nodes_from_summary(graph_name, summary, time_period, map_cente
             fill=True
         ).add_to(m)
 
-    return m
+    m.save(f"output_files/{time_period}_top_nodes.html")
+
 
 def write_summary_to_file(summary_data, file_name):
     try:

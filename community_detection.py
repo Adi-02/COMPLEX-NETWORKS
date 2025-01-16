@@ -49,7 +49,7 @@ def visualize_communities_on_map(graph, partition, map_center=(40.7128, -74.0060
     return m
 
 
-def remove_top_central_nodes(graph, top_n=5):
+def remove_top_central_nodes(graph, time_slot, top_n=5):
     centrality = nx.degree_centrality(graph)
     
     top_nodes = sorted(centrality.items(), key=lambda x: x[1], reverse=True)[:top_n]
@@ -58,7 +58,7 @@ def remove_top_central_nodes(graph, top_n=5):
     graph_removed = graph.copy()
     graph_removed.remove_nodes_from(top_nodes)
     
-    print(f"Removed top {top_n} nodes: {top_nodes}")
+    print(f"Removed top {top_n} nodes for {time_slot}t: {top_nodes}")
     return graph_removed
 
 def compute_community_sizes(partition):
@@ -66,7 +66,6 @@ def compute_community_sizes(partition):
     for node, community in partition.items():
         community_sizes[community] = community_sizes.get(community, 0) + 1
     return community_sizes
-
 
 
 def run_community_detection():
@@ -84,7 +83,7 @@ def run_community_detection():
         map_visualization = visualize_communities_on_map(undirected_graph, partition)
         map_visualization.save(f"community_detection/community_map_{period}.html")
 
-        filtered_graph = remove_top_central_nodes(undirected_graph, top_n=num_nodes_to_rem)
+        filtered_graph = remove_top_central_nodes(undirected_graph, period, num_nodes_to_rem)
 
         modularity_score_filtered, partition, num_filtered_communities = compute_modularity(filtered_graph)
         modularity_scores.append((modularity_score, modularity_score_filtered))

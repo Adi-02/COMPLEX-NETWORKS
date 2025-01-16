@@ -81,7 +81,8 @@ def add_lat_long_to_csv(file_name):
     output_file_name = file_name[:-4] + "_lat_long.csv"
     nyc_taxi_data.to_csv(output_file_name, index=False)
     print(f"File with latitude and longitude added: {output_file_name}")
-    return output_file_name
+    #return output_file_name
+    return nyc_taxi_data, output_file_name
 
 def classify_time_period(row):
     morning_rush_hours = list(range(4, 11))
